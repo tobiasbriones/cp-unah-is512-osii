@@ -14,8 +14,6 @@ import tkMessageBox
 import ScrolledText
 import time
 
-# Link del video: https://youtu.be/d11WSVjmeeI
-
 def portlist():
     os.system("sudo ufw status > portlist.txt")
     return subprocess.check_output("cat /home/ubuntu1/portlist.txt", shell=True)
