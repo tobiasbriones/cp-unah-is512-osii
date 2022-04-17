@@ -11,3 +11,4 @@ Licensed under the [MIT License](LICENSE).
 The following packages contain screenshots of third-party apps:
 
 - [exam](exam/screenshots/notice.md)
+- [apache-server](apache-server/screenshots/notice.md)
