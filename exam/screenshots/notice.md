@@ -1,3 +1,3 @@
 # Notice
 
-- [VMs](vms.png)
+- [VirtualBox VMs](virtualbox-vms.png)
