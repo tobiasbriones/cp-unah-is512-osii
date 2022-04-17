@@ -72,8 +72,30 @@ Then the app can be executed with `F5`.
 
 ![VM Update Ports](screenshots/vm-update-ports.png)
 
-This way, we can also enter a port into the top field to allow it, or into 
-the bottom field to deny it.
+This way, we can also enter a port into the top field to allow it, or into the
+bottom field to deny it.
 
-This information can be checked via terminal running the same command `sudo 
-ufw status`.
+This information can be checked via terminal running the same
+command `sudo ufw status`.
+
+## Resources
+
+I'll leave you a video in Spanish demonstrating the application. I advise not to
+use Zoom to record the screen as the audio is terrible.
+
+<iframe 
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/d11WSVjmeeI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+These resources might be helpful:
+
+- [Downloads - Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Get Ubuntu Server \| Ubuntu](https://ubuntu.com/download/server)
+- [How to Install Xrdp Server (Remote Desktop) on Ubuntu 20.04 \| Linuxize](https://linuxize.com/post/how-to-install-xrdp-on-ubuntu-20-04)
+- [How To Set Up a Firewall with UFW on Ubuntu 18.04 \| Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04)
