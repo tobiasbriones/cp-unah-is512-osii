@@ -18,12 +18,31 @@ For this project, there are the following requirements:
 - VM.
 - Website to Deploy.
 
-I chose to use Porkbun for acquiring the domain name, Digital Ocean for the 
-VM, and [Coniestica](https://github.com/tobiasbriones/ep-coniestica) (an EP 
-I use to use for these scenarios). 
+I chose to use Porkbun for acquiring the domain name, Digital Ocean for the VM,
+and [Coniestica](https://github.com/tobiasbriones/ep-coniestica) (an EP I use to
+use for these scenarios).
 
-I opted for this config because I want to 
-make some test to those platforms, I have expertise on domain names, and 
-Porkbun has super cheap prices. Digital Ocean is more mature now, and I've 
-seen they have managed databases, so it is a good chance to check out over 
-there.
+I opted for this config because I want to make some test to those platforms, I
+have expertise on domain names, and Porkbun has super cheap prices. Digital
+Ocean is more mature now, and I've seen they have managed databases, so it is a
+good chance to check out over there.
+
+### Get the Domain Name
+
+You need a domain name to set up the web server. I'll lead you through this
+on [Porkbun](https://porkbun.com). As you can see, there are many cheap
+[registration prices](https://porkbun.com/products/domains), you can also go to
+other registrars like [Namecheap](https://namecheap.com) (most popular),
+[Google Domains](https://domains.google), [Name.com](https://name.com), or many
+others. I was able to find domain registration as low as about $1 in Porkbun,
+and bought this one:
+
+![Porkbub Buy Domain](screenshots/porkbun-buy-domain.png)
+
+A .website domain for about $1.11. The process is always simple, select your
+domain name, and go to checkout to pay with your account. Make sure your account
+is secure as it contains your personal information and your domain names, this
+is sensitive information, or else imagine someone stealing your domain name,
+that would be a nightmare. I leave you
+this [scary story](https://www.namepros.com/threads/domains-got-stolen-from-my-namesilo-recovered.1097787)
+you can read.
