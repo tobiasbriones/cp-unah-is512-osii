@@ -78,6 +78,11 @@ bottom field to deny it.
 This information can be checked via terminal running the same
 command `sudo ufw status`.
 
+## Conclusion
+
+A GUI application was developed to manage system ports for the actions allow 
+and deny.
+
 ## Resources
 
 I'll leave you a video in Spanish demonstrating the application. I advise not to
