@@ -158,3 +158,23 @@ Now run:
 
 ![PuTTY Firewall Config](screenshots/putty-firewall-config.png)
 
+## Install Apache
+
+Start with these commands:
+
+`sudo apt-get update`
+
+`sudo apt-get install apache2`
+
+Create the public directory for the website:
+
+`sudo mkdir -p /var/www/operatingsystems.website/public`
+
+Where "operatingsystems.website" is the name of our website to deploy.
+
+Change ownership for the normal user (you have to be logged as the new user 
+you created):
+
+`sudo chown -R $USER:$USER /var/www/operatingsystems.website/public`
+
+`sudo chmod -R 755 /var/www`
