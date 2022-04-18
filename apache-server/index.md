@@ -76,3 +76,63 @@ Click on "Create Droplet" and wait until the machine is deployed.
 You will have created a droplet like this:
 
 ![DigitalOcean Droplets](screenshots/digitalocean-droplets.png)
+
+## Get the VM Started
+
+First, log into your VM. You can use PuTTY following
+[this guide](https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/putty)
+to enter your server as root user.
+
+Once you are into your machine, execute basic maintenance commands:
+
+`sudo apt update`
+
+![PuTTY Log into VM](screenshots/putty-log-into-vm.png)
+
+It is highly recommended creating a different user to avoid using the root user
+as [detailed here](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04).
+
+Run `adduser { username }` and set the user's password and other information.
+Then add root privileges to that user as follows:
+
+`usermod -aG sudo { username }`
+
+That will add your new user to the sudo group. In this case, my username is
+"tobi".
+
+Then generate another key pair for giving SSH access to the new user.
+
+Add the public key next, first enter as root to then change to the new user:
+
+`su - { username }`
+
+`mkdir ~/.ssh`
+
+`chmod 700 ~/.ssh`
+
+`cd ~/.ssh`
+
+`nano authorized_keys`
+
+And paste your public key.
+
+`chmod 600 ~/.ssh/authorized_keys`
+
+`exit`
+
+Now disable password authentication:
+
+`sudo nano /etc/ssh/sshd_config`
+
+Find this property, and make sure it is uncommented and set to "no", that
+is, `PasswordAuthentication no`. For my case, this was already configured that
+way.
+
+Other attributes that we have by default are `PubkeyAuthentication yes` and
+`ChallengeResponseAuthentication no`.
+
+Finally, reload the SSH daemon with `sudo systemctl reload sshd`.
+
+Now you can log with the new user created.
+
+![PuTTY Log as tobi](screenshots/putty-log-as-tobi.png)
