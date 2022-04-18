@@ -210,3 +210,41 @@ Then you'll have a "dist" directory that contains the production-ready website.
 That is what has to be copied to the public directory to be deployed.
 
 `mv -v dist/* /var/www/operatingsystems.website/public`
+
+## Create the Virtual Host File
+
+Virtual Hosts are individual entities in the Apache web server, this way you can
+have several websites on the same machine for example. The default is the
+file `000-default.conf` that we'll use as a basis for adding the others.
+
+`sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/operatingsystems.website.conf`
+
+`cd /etc/apache2/sites-available/`
+
+`sudo nano operatingsystems.website.conf`
+
+Recall that, the default port is port 80. So first, we need to configure the 
+domain for this website.
+
+Set the `ServerAdmin` directive to an admin email you can use.
+
+Set the `DocumentRoot` directive to `var/www/operatingsystems.website/public`.
+
+Add two more directives, `ServerName operatingsystems.website` and 
+`ServerAlias www.operatingsystems.website`. 
+
+It'll look like this:
+
+![PuTTY Main Virtual Host](screenshots/putty-main-virtual-host.png)
+
+Now enable the virtual host file:
+
+`sudo a2ensite operatingsystems.website.conf`
+
+Disable the default with `sudo a2dissite 000-default.conf`, and reload the 
+server `sudo systemctl restart apache2`.
+
+This exercise is to be repeated for creating more virtual host files.
+
+Now by enabling the port 80 via `sudo ufw allow 80` you will be able to open 
+the page at http://operatingsystems.website (your own domain).
