@@ -248,3 +248,18 @@ This exercise is to be repeated for creating more virtual host files.
 
 Now by enabling the port 80 via `sudo ufw allow 80` you will be able to open 
 the page at http://operatingsystems.website (your own domain).
+
+## Set Up the Domain Name
+
+Go to Porkbun to your domain DNS Record config. Add the following config 
+with your VM's IP address.
+
+![Porkbun Set Up DNS Records](screenshots/porkbun-set-up-dns-records.png)
+
+Add another for "www" too.
+
+That's it. The domain name will respond with the website.
+
+There's another way to add domains to DO, by going to your VM and clicking 
+on the "More" menu, then "Add a domain". We used the apache virtual host to 
+set up out web server this time.
