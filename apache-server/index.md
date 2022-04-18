@@ -263,3 +263,25 @@ That's it. The domain name will respond with the website.
 There's another way to add domains to DO, by going to your VM and clicking 
 on the "More" menu, then "Add a domain". We used the apache virtual host to 
 set up out web server this time.
+
+## Install Let's Encrypt SSL Certificate
+
+We need to install certbot and python3-certbot-apache
+first `sudo apt install certbot python3-certbot-apache`. Now we already have 
+the virtual host configured with the `ServerName` and `ServerAlias` directives.
+
+Check the state of the virtual host file with `sudo apache2ctl configtest`, 
+and reload the server `sudo systemctl reload apache2`.
+
+### Allow HTTPS
+
+Run `sudo ufw status` to check your current config, then 
+`sudo ufw allow 'Apache Full'`, and `sudo ufw delete allow 80` or
+`sudo ufw delete allow 'Apache'` depending on your current config.
+
+### Obtain the SSL Certificate
+
+Use `sudo certbot --apache`, and enter a valid email address, then accept 
+the information that will be asked to you.
+
+Great! Reload the page and you will have https enabled.
