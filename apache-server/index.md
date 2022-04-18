@@ -184,7 +184,7 @@ you created):
 We're going to use my example project website as said above. Clone the 
 repository first:
 
-`git clone https://github.com/tobiasbriones/ep-coniestica.git
+`git clone https://github.com/tobiasbriones/ep-coniestica.git`
 
 And install node with NVM, get the latest script version
 from https://github.com/nvm-sh/nvm#installing-and-updating
