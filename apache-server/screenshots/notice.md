@@ -1,3 +1,4 @@
 # Notice
 
-- [Porkbun Buy Domain]
+- [Porkbun Buy Domain](porkbun-buy-domain.png)
+- [DigitalOcean Create Droplet](digitalocean-create-droplet.jpeg)
