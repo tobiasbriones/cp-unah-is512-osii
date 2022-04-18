@@ -284,7 +284,7 @@ Run `sudo ufw status` to check your current config, then
 Use `sudo certbot --apache`, and enter a valid email address, then accept 
 the information that will be asked to you.
 
-Great! Reload the page and you will have https enabled.
+Great! Reload the page and you will have HTTPS enabled.
 
 ## Add Users with Password
 
