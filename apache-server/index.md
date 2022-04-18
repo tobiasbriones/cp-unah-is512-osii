@@ -285,3 +285,58 @@ Use `sudo certbot --apache`, and enter a valid email address, then accept
 the information that will be asked to you.
 
 Great! Reload the page and you will have https enabled.
+
+## Add Users with Password
+
+We'll need three users to access the website with a password.
+
+Install `apache2-utils` if not installed yet, so we can store our credentials:
+
+`sudo apt-get update`
+
+`sudo apt-get install apache2-utils`
+
+Store an "admin" user with password "sistemasoperativos" by creating the 
+next file. Use the "-c" argument the firsts time to create the file.
+
+`sudo htpasswd -c /etc/apache2/.htpasswd admin`
+
+Then enter the user password.
+
+And add two more users as desired:
+
+`sudo htpasswd /etc/apache2/.htpasswd { other-user }`
+
+Just to mention, I added the example users "tobi:tobiasbriones", and 
+"do:digitalocean" (username:password).
+
+Check the ".htpasswd" file with `cat /etc/apache2/.htpasswd` that will show 
+the encrypted passwords for each user. My users look like this:
+
+![Website Users](website-users.png)
+
+Go to the host file to add the following child:
+
+`sudo nano /etc/apache2/sites-enabled/operatingsystems.website.conf`
+
+If you are using SSL (you should) then edit the
+`operatingsystems.website-le-ssl.conf` file instead.
+
+```
+<Directory "/var/www/operatingsystems.website/public">
+    AuthType Basic
+    AuthName "Proyecto de Sistemas Operativos II"
+    AuthUserFile /etc/apache2/.htpasswd
+    Require valid-user
+</Directory>
+```
+
+It'll look like this:
+
+![PuTTY Auth VirtualHost Config](screenshots/putty-auth-virtualhost-config.png)
+
+Restart `sudo service apache2 restart`.
+
+Then, the client will ask you for user and password:
+
+![MS Edge Prompt enter Credentials](screenshots/ms-edge-prompt-enter-credentials.png)
