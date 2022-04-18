@@ -136,3 +136,25 @@ Finally, reload the SSH daemon with `sudo systemctl reload sshd`.
 Now you can log with the new user created.
 
 ![PuTTY Log as tobi](screenshots/putty-log-as-tobi.png)
+
+### Set Up the Firewall
+
+Make sure the firewall will allow you to connect via SSH, this is a common 
+problem when playing with this.
+
+`sudo ufw app list`
+
+It'll show `OpenSSH` as available applications.
+
+And make sure to allow your connection:
+
+`sudo ufw allow OpenSSH`
+
+Now run:
+
+`sudo ufw enable`
+
+`sudo ufw status`
+
+![PuTTY Firewall Config](screenshots/putty-firewall-config.png)
+
