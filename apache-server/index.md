@@ -178,3 +178,35 @@ you created):
 `sudo chown -R $USER:$USER /var/www/operatingsystems.website/public`
 
 `sudo chmod -R 755 /var/www`
+
+## Clone the Website
+
+We're going to use my example project website as said above. Clone the 
+repository first:
+
+`git clone https://github.com/tobiasbriones/ep-coniestica.git
+
+And install node with NVM, get the latest script version
+from https://github.com/nvm-sh/nvm#installing-and-updating
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
+
+`source ~/.bashrc`
+
+Check the Node versions with `nvm list-remote` and install the latest (LTS 
+or normal) version:
+
+`nvm install v16.14.2`
+
+`nvm list`
+
+Now go into the project directory `cd ep-coniestica` to build the project:
+
+`npm i`
+
+`npm run build:prod`
+
+Then you'll have a "dist" directory that contains the production-ready website.
+That is what has to be copied to the public directory to be deployed.
+
+`mv -v dist/* /var/www/operatingsystems.website/public`
