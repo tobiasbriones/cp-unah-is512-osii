@@ -5,3 +5,4 @@
 - [DigitalOcean Droplets](digitalocean-droplets.png)
 - [PuTTY Log into VM](putty-log-into-vm.png)
 - [PuTTY Log as tobi](putty-log-as-tobi.png)
+- [PuTTY Firewall Config](putty-firewall-config.png)
