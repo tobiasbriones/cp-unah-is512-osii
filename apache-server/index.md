@@ -401,7 +401,8 @@ other ports to be open for users hosting other websites.
 - If you get into some error or trouble by configuring a system, your work as an
   engineer is to solve problems, not to give them. Figure it out how to solve
   it. Real engineers write the docs, so to be a good one, you must be capable of
-  reading and writing technical documentation.
+  reading and writing technical documentation. That also implies asking someone
+  else if that'll lead to solve the problem properly.
 
 - Collaborate to open-source whenever you see anything helpful. This project was
   possible thanks to my own open-source projects including this article, and the
@@ -416,9 +417,9 @@ other ports to be open for users hosting other websites.
 - Be careful with passwords, SSH keys. Try to be as secure as possible.
 
 - Please use a PaaS because they are meant to make a developer life easy. Learn
-  how to do this by hand, but if you're not a systems admin, or DevOps don't
-  lose time on real deployments on maintaining an IaaS. Only that requires the
-  role of a dedicated engineer.
+  how to do this by hand, but if you're not either a systems admin, or DevOps
+  then don't lose time maintaining an IaaS. Only that, requires the role of a
+  dedicated engineer.
 
 - The problem with some engineers (with university degrees, a great amount) who
   have lack of theoretical education is that they are bunglers or incompetent,
@@ -458,7 +459,7 @@ other ports to be open for users hosting other websites.
   now, Windows has become a Frankenstein trying to mimic Linux, Mac, and
   Android. M$ used to have a toxic culture when ~~engineers~~
   marketers put everything the other way around just to make it "Microsoft
-  Windows" branded, I mean, this "\" instead of normal slash "/", Hungarian
+  Windows" branded, I mean, this "\\" instead of normal slash "/", Hungarian
   notation, "Folders" instead of "Directories", etc. Why use a Windows trying to
   be more open, and look like Linux, and Mac when you can just use the very
   genuine Linux and Mac (and Java)? These platform have been developed under
@@ -468,27 +469,28 @@ other ports to be open for users hosting other websites.
   are not accurate, now you have to learn Excel and stuff (third-party mediocre
   software) instead of software engineering. Students must learn engineering to
   apply proper solutions, and leave general-purpose software for weak companies.
-  That is truth as everything is software nowadays, hence those companies with
-  no IT talent are weak, and the last thing you want as a competent engineer is
-  working at a crap company where you have "a boss" and they don't speak your
-  (technical) language like banks, government, most universities, etc., they
-  just need to employ domain-specific software to have business professionals
-  talking to that software, they shouldn't need engineers at all. One professor
-  once said, use Windows because the GUI is easier than Linux, and companies in
+  It is right to study proper engineering rather than garbage like Excel for
+  example, but it is a most to be proficient on that for most jobs. The last
+  thing you want as a competent engineer is working at a crap company where you
+  have "a boss", and they don't speak your (technical) language, like banks,
+  government, most universities, etc. Companies should just employ
+  domain-specific software to have business professionals talking to that
+  software instead. They shouldn't need engineers at all. One professor once
+  said, use Windows because the GUI is easier than Linux, and companies in
   third-world pay it better. That's why alumni from public universities end up
   working at "weak" archaic companies, they are not actual engineers, so they
   end up working with Office, most of them don't even know what Markdown or
   GitHub is. I hate it because they steal others credits being product managers,
   the one who socializes the projects but never work, the so-called "best
-  engineer of the university" just because he puts 100 on every student, or put
-  nonsense titles like "scientist" or "engineers" when they don't have the bare
-  minimum studies (degrees don't matter here). That's why I don't like LinkedIn
-  a lot, because it is full of bureaucrats, and bullshit sellers. I love
-  engaging with technical people like me, but it is a really hard time to meet
-  more of them as we are back office, and significantly different from the
-  average. I don't care if you don't know anything as far as you are able to be
-  genuine on your studies/professional objectives. These are hot topics we can
-  discuss further later!.
+  engineer of the university" just because he puts 100% grades on every
+  student (easy job), or put nonsense titles like "scientist"
+  or "engineers" when they don't have the bare minimum studies (degrees don't
+  matter here). That's why I don't like LinkedIn a lot, because it is full of
+  bureaucrats, and bullshit sellers. I love engaging with technical people like
+  me, but it is a really hard time to meet more of them as we are back office,
+  and significantly different from the average. I don't care if you don't know
+  anything as far as you are able to be genuine on your studies/professional
+  objectives. These are hot topics we can discuss further later!.
 
 - It's easy to read manuals, but if you go all the way up writing your own
   content, then congrats!. Recall that quality also plays a crucial role here.
