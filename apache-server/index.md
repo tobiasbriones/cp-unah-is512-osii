@@ -462,35 +462,64 @@ other ports to be open for users hosting other websites.
   Windows" branded, I mean, this "\\" instead of normal slash "/", Hungarian
   notation, "Folders" instead of "Directories", etc. Why use a Windows trying to
   be more open, and look like Linux, and Mac when you can just use the very
-  genuine Linux and Mac (and Java)? These platform have been developed under
+  genuine Linux and Mac (and Java)? These platforms have been developed under
   genuine design decisions since, or almost since inception. Windows relies on
   the mouse, and it is meant for companies paying licenses to forget about
   technical details which has led to general-purpose solutions on business that
   are not accurate, now you have to learn Excel and stuff (third-party mediocre
   software) instead of software engineering. Students must learn engineering to
   apply proper solutions, and leave general-purpose software for weak companies.
-  It is right to study proper engineering rather than garbage like Excel for
-  example, but it is a most to be proficient on that for most jobs. The last
-  thing you want as a competent engineer is working at a crap company where you
-  have "a boss", and they don't speak your (technical) language, like banks,
-  government, most universities, etc. Companies should just employ
-  domain-specific software to have business professionals talking to that
-  software instead. They shouldn't need engineers at all. One professor once
-  said, use Windows because the GUI is easier than Linux, and companies in
-  third-world pay it better. That's why alumni from public universities end up
-  working at "weak" archaic companies, they are not actual engineers, so they
-  end up working with Office, most of them don't even know what Markdown or
-  GitHub is. I hate it because they steal others credits being product managers,
-  the one who socializes the projects but never work, the so-called "best
-  engineer of the university" just because he puts 100% grades on every
-  student (easy job), or put nonsense titles like "scientist"
-  or "engineers" when they don't have the bare minimum studies (degrees don't
-  matter here). That's why I don't like LinkedIn a lot, because it is full of
-  bureaucrats, and bullshit sellers. I love engaging with technical people like
-  me, but it is a really hard time to meet more of them as we are back office,
-  and significantly different from the average. I don't care if you don't know
+  It is right to study proper engineering rather than garbage like MS Excel for
+  example, but Excel is a must for getting many jobs. The last thing you want as
+  a competent engineer is working at a crap company where you have "a boss", and
+  they don't speak your (technical) language, like banks, government, most
+  universities, etc. Companies should just employ domain-specific software to
+  have their own business professionals talking to that software instead. It's
+  about addressing the domain problem not the domain solution. They shouldn't
+  need engineers at all. What I mean, is that, your objective as an engineer 
+  is to work at a tech company, or build your own (there are infinitely many 
+  problems to solve), just lame engineers work at traditional bureaucratic 
+  companies. Ok, sometimes we need to get employed, but you can't end up 
+  working in a bank, or non-tech organization forever!.
+
+- One professor once said, use Windows because the GUI is
+  easier than Linux, and companies in third-world pay it better. That's why
+  alumni from public universities end up working at "weak" archaic companies,
+  they are not actual engineers, so they end up working with MS Office, most of
+  them don't even know what Markdown or GitHub is. I hate it because they steal
+  others credits being product managers, the one who socializes the projects but
+  never work, the so-called "best engineer of the university" just because he
+  puts 100% grades on every student (easy job), or put nonsense titles like "
+  scientist" or "engineers" when they don't have the bare minimum studies
+  (degrees don't matter here). That's why I don't like LinkedIn a lot, because
+  it is full of bureaucrats, and bullshit sellers. I love engaging with
+  technical people like me, but it is a really hard time to meet more of them as
+  we are back office, and significantly different from the average. I always
+  introduce myself to people giving the minimum information about me (I don't
+  need to say facts like I have the best grades, I'm better than you all, etc.),
+  I just let flow everything naturally, and that taught me that most people are
+  fake, and worthless. For example, I have faced various situations when I enter
+  a team, they know each other, but I am only a fool-quiet guy for them at the
+  beginning (universities are for showing off appearances), and then I start
+  demonstrating my work by being professional, and saving their asses because I
+  am the only one who understood what to do, they didn't even know me, so they
+  end up with a good reputation of me immediately after the "welcome". In one
+  team, there was an asshole (he used to be so), and I had some diagrams from
+  older personal projects, I shared the diagrams with them, but he told that
+  they were taken from the internet, and were not mine, and "we need to make
+  something mediocre, so the professor thinks it is our work", he was so mean to
+  me (this time, I did not reply his comments, no need to so) that he even
+  deleted all the messages some minutes later (cringe). I was so better than
+  them all, that I always had an explanation (although harder to speak, because
+  I write, but don't like to speak) that my personal works looked like taken
+  from a book, but I never show off my superiority, I always let my genuine work
+  talk for me when required instead (humble, from inside to outside, but that
+  doesn't mean I'm a fool with no understanding on what extroverts do). I was
+  really mad at that moment, but now I have more experience to manage all kind
+  of scenarios. Those experiences + high technical knowledge turn you into a 
+  "Senior Engineer", so now you know it!. I don't care if you even don't know
   anything as far as you are able to be genuine on your studies/professional
-  objectives. These are hot topics we can discuss further later!.
+  objectives.
 
 - It's easy to read manuals, but if you go all the way up writing your own
   content, then congrats!. Recall that quality also plays a crucial role here.
