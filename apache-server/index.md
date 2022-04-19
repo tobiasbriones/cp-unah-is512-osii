@@ -511,15 +511,20 @@ other ports to be open for users hosting other websites.
   me (this time, I did not reply his comments, no need to so) that he even
   deleted all the messages some minutes later (cringe). I was so better than
   them all, that I always had an explanation (although harder to speak, because
-  I write, but don't like to speak) that my personal works looked like taken
+  I write, but don't like to speak), that my personal works looked like taken
   from a book, but I never show off my superiority, I always let my genuine work
   talk for me when required instead (humble, from inside to outside, but that
-  doesn't mean I'm a fool with no understanding on what extroverts do). I was
-  really mad at that moment, but now I have more experience to manage all kind
-  of scenarios. Those experiences + high technical knowledge turn you into a 
-  "Senior Engineer", so now you know it!. I don't care if you even don't know
-  anything as far as you are able to be genuine on your studies/professional
-  objectives.
+  doesn't mean I'm a fool with no understanding on what extroverts do). I 
+  actually took the diagrams from the internet, but from my own project!. It 
+  is stupid to go to the university, you are cleverer than them (professors, 
+  and students), and then you have to mimic you're a fool just to give the
+  professor a "proof" that you actually made the homework. In other words, the
+  education system is meant for fools, if you are better than that, they will
+  not like you at all. I was really mad at that moment, but now I have more
+  experience to manage all kind of scenarios. Those experiences + high technical
+  knowledge turn you into a "Senior Engineer", so now you know it!. I don't care
+  if you even don't know anything as far as you are able to be genuine on your
+  studies/professional objectives.
 
 - It's easy to read manuals, but if you go all the way up writing your own
   content, then congrats!. Recall that quality also plays a crucial role here.
