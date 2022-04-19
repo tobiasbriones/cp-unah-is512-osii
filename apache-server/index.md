@@ -387,3 +387,11 @@ To add the other sites, replicate this section again.
 
 Make sure to access as HTTP because the HTTPS connection is only for the secure 
 port 443.
+
+## Conclusion
+
+Many Linux system admin concepts like firewall, DNS, web servers, virtual hosts,
+system users, secure connections via SSH and SSL, open-source, authentication,
+cloud computing, and virtual machines where applied to the Apache2 server that
+deployed the Coniestica website securely on the internet, and also allowed 
+other ports to be open for users hosting other websites. 
