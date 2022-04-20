@@ -44,6 +44,10 @@ and bought this one:
 
 ![Porkbub Buy Domain](screenshots/porkbun-buy-domain.png)
 
+<figcaption>
+<p align="center"><strong>Porkbub Buy Domain</strong></p>
+</figcaption>
+
 A .website domain for about $1.11. The process is always simple, select your
 domain name, and go to checkout to pay with your account. Make sure your account
 is secure as it contains your personal information and your domain names, this
@@ -66,6 +70,10 @@ The datacenter might be "New York (1)" for this test, and the VPC as default.
 
 ![DigitalOcean Create Droplet](screenshots/digitalocean-create-droplet.jpeg)
 
+<figcaption>
+<p align="center"><strong>DigitalOcean Create Droplet</strong></p>
+</figcaption>
+
 For authentication, use SSH which is more secure. Now a key pair is to be
 created. Click on "New SSH Key", to create a new key you can
 read [How-to Add SSH Keys to New or Existing Droplets \| DigitalOcean 
@@ -82,6 +90,10 @@ You will have created a droplet like this:
 
 ![DigitalOcean Droplets](screenshots/digitalocean-droplets.png)
 
+<figcaption>
+<p align="center"><strong>DigitalOcean Droplets</strong></p>
+</figcaption>
+
 ## Get the VM Started
 
 First, log into your VM. You can use PuTTY following
@@ -93,6 +105,10 @@ Once you are into your machine, execute basic maintenance commands:
 `sudo apt update`
 
 ![PuTTY Log into VM](screenshots/putty-log-into-vm.png)
+
+<figcaption>
+<p align="center"><strong>PuTTY Log into VM</strong></p>
+</figcaption>
 
 It is highly recommended creating a different user to avoid using the root user
 as [detailed here](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04).
@@ -142,6 +158,10 @@ Now you can log with the new user created.
 
 ![PuTTY Log as tobi](screenshots/putty-log-as-tobi.png)
 
+<figcaption>
+<p align="center"><strong>PuTTY Log as tobi</strong></p>
+</figcaption>
+
 ### Set Up the Firewall
 
 Make sure the firewall will allow you to connect via SSH, this is a common 
@@ -162,6 +182,10 @@ Now run:
 `sudo ufw status`
 
 ![PuTTY Firewall Config](screenshots/putty-firewall-config.png)
+
+<figcaption>
+<p align="center"><strong>PuTTY Firewall Config</strong></p>
+</figcaption>
 
 ## Install Apache
 
@@ -242,6 +266,10 @@ It'll look like this:
 
 ![PuTTY Main Virtual Host](screenshots/putty-main-virtual-host.png)
 
+<figcaption>
+<p align="center"><strong>PuTTY Main Virtual Host</strong></p>
+</figcaption>
+
 Now enable the virtual host file:
 
 `sudo a2ensite operatingsystems.website.conf`
@@ -260,6 +288,10 @@ Go to Porkbun to your domain DNS Record config. Add the following config
 with your VM's IP address.
 
 ![Porkbun Set Up DNS Records](screenshots/porkbun-set-up-dns-records.png)
+
+<figcaption>
+<p align="center"><strong>Porkbun Set Up DNS Records</strong></p>
+</figcaption>
 
 Add another for "www" too.
 
@@ -320,6 +352,10 @@ the encrypted passwords for each user. My users look like this:
 
 ![Website Users](website-users.png)
 
+<figcaption>
+<p align="center"><strong>Website Users</strong></p>
+</figcaption>
+
 Go to the host file to add the following child:
 
 `sudo nano /etc/apache2/sites-enabled/operatingsystems.website.conf`
@@ -340,13 +376,25 @@ It'll look like this:
 
 ![PuTTY Auth VirtualHost Config](screenshots/putty-auth-virtualhost-config.png)
 
+<figcaption>
+<p align="center"><strong>PuTTY Auth VirtualHost Config</strong></p>
+</figcaption>
+
 Restart `sudo service apache2 restart`.
 
 Then, the client will ask you for user and password:
 
 ![MS Edge Prompt enter Credentials](screenshots/ms-edge-prompt-enter-credentials.png)
 
+<figcaption>
+<p align="center"><strong>MS Edge Prompt enter Credentials</strong></p>
+</figcaption>
+
 ![MS Edge Coniestica](screenshots/ms-edge-coniestica.png)
+
+<figcaption>
+<p align="center"><strong>MS Edge Coniestica</strong></p>
+</figcaption>
 
 ## Add more Sites on Different Ports
 
@@ -387,6 +435,10 @@ allow it on the firewall rules:
 `sudo ufw allow 8081`
 
 ![MS Edge Port 8081](screenshots/ms-edge-port-8081.png)
+
+<figcaption>
+<p align="center"><strong>MS Edge Port 8081</strong></p>
+</figcaption>
 
 To add the other sites, replicate this section again.
 
