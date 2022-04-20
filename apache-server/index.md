@@ -10,6 +10,24 @@
 
 # Apache Server
 
+- [Apache Server](#apache-server)
+  * [Get Started](#get-started)
+    + [Get the Domain Name](#get-the-domain-name)
+  * [Get the VM](#get-the-vm)
+  * [Get the VM Started](#get-the-vm-started)
+    + [Set Up the Firewall](#set-up-the-firewall)
+  * [Install Apache](#install-apache)
+  * [Clone the Website](#clone-the-website)
+  * [Create the Virtual Host File](#create-the-virtual-host-file)
+  * [Set Up the Domain Name](#set-up-the-domain-name)
+  * [Install Let's Encrypt SSL Certificate](#install-let-s-encrypt-ssl-certificate)
+    + [Allow HTTPS](#allow-https)
+    + [Obtain the SSL Certificate](#obtain-the-ssl-certificate)
+  * [Add Users with Password](#add-users-with-password)
+  * [Add more Sites on Different Ports](#add-more-sites-on-different-ports)
+  * [Conclusion](#conclusion)
+  * [Recommendations](#recommendations)
+
 ## Get Started
 
 For this project, there are the following requirements:
