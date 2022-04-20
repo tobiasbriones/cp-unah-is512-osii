@@ -1,6 +1,6 @@
 ---
 description: This documentation requires basic understanding of Linux, Cloud, Website development, and DevOps. The process of deploying a secure website from scratch by configuring the Apache web server is developed. User authentication to access the website is set up. Additional ports are also used to deploy other websites.
-ogimage: https://raw.githubusercontent.com/tobiasbriones/cp-unah-is512-osii/gh-pages/apache-server/screenshots/ms-edge-coniestica.png
+ogimage: https://dev.mathsoftware.engineer/cp-unah-is512-osii/apache-server/screenshots/putty-auth-virtualhost-config.png
 ---
 
 <!--
