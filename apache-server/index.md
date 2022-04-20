@@ -592,3 +592,17 @@ other ports to be open for users hosting other websites.
   any university degree that will tell you how to do it. It is something dynamic
   to use your ability to address any problems. Initiative is a must for any
   talented engineer always!.
+
+## Bibliography
+
+- [EP: Coniestica \| GitHub Repository](https://github.com/tobiasbriones/ep-coniestica).
+- [Initial Server Setup with Ubuntu 16.04 \| DigitalOcean](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04).
+- [How to Connect to your Droplet with PuTTY on Windows \| DigitalOcean Docs](https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/putty).
+- [How-to Add SSH Keys to New or Existing Droplets \| DigitalOcean Docs](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys).
+- [How To Install Node.js on Ubuntu 20.04 \| DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04).
+- [NVM \| GitHub Repository](https://github.com/nvm-sh/nvm#installing-and-updating).
+- [How To Secure Apache with Let's Encrypt on Ubuntu 20.04 \| DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04).
+- [How To Set Up Password Authentication with Apache on Ubuntu 18.04 \| DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-18-04).
+- [Binding to Addresses and Ports \| Apache HTTPD](https://httpd.apache.org/docs/2.4/bind.html).
+- [Apache Module mod_auth_basic \| Apache HTTPD](https://httpd.apache.org/docs/current/mod/mod_auth_basic.html#authbasicprovider).
+- [Domains got stolen from my namesilo [Recovered] \| NamePros](https://www.namepros.com/threads/domains-got-stolen-from-my-namesilo-recovered.1097787).
