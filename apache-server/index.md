@@ -40,6 +40,8 @@ the website is set up. Additional ports are also used to deploy other websites.
   * [Add more Sites on Different Ports](#add-more-sites-on-different-ports)
   * [Conclusion](#conclusion)
   * [Recommendations](#recommendations)
+  * [Resources](#resources)
+    + [Video Presentation](#video-presentation)
   * [Bibliography](#bibliography)
 
 ## Get Started
@@ -619,6 +621,12 @@ other ports to be open for users hosting other websites.
   any university degree that will tell you how to do it. It is something dynamic
   to use your ability to address any problems. Initiative is a must for any
   talented engineer always!.
+  
+## Resources
+
+### Video Presentation
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0_JUkrxzy-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Bibliography
 
