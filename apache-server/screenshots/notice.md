@@ -13,3 +13,4 @@
 - [MS Edge Port 8081](ms-edge-port-8081.png)
 - [MS Edge Coniestica](ms-edge-coniestica.png)
 - [PuTTY VirtualHost 8081](putty-virtualhost-8081.png)
+- [PuTTY Ports Config](putty-ports-config.png)
