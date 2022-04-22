@@ -405,18 +405,22 @@ The procedure will be done for one website, and then this has to be copied
 for the others.
 
 Make a new directory for the new site
-with `sudo mkdir /var/www/operatingsystems.website.8081`, create an "index.html"
-file into its "public" directory to add some content. Now copy the normal (80
-HTTP) virtual host with
+with `sudo mkdir /var/www/operatingsystems.website.8081`.
+
+Create its public directory with
+`sudo mkdir /var/www/operatingsystems.website.8081/public`.
+
+Then create an "index.html" file into the "public" directory to add some 
+content. Now copy the normal (80 HTTP) virtual host with
 `sudo cp /etc/apache2/sites-available/operatingsystems.website.conf /etc/apache2/sites-available/operatingsystems.website.8081.conf`.
 
 Open the file and make the respective changes:
 
 `sudo nano /etc/apache2/sites-available/operatingsystems.website.8081.conf`
 
-Changing the port from 80 to 8081, the `DocumentRoot` directive would be 
-enough. We'll leave the same password file for authentication, create other 
-password file with other users if needed.
+Changing the port from 80 to 8081, the `DocumentRoot` directive, and the
+`Directory` child config would be enough. We'll leave the same password file for
+authentication, create other password file with other users if needed.
 
 Enable the new site with 
 
@@ -424,10 +428,10 @@ Enable the new site with
 
 `sudo a2ensite operatingsystems.website.8081.conf`
 
-`systemctl reload apache2`
-
 Add the port 8081 to the Apache config `sudo nano /etc/apache2/ports.conf` 
 by adding "Listen 8081" to that file.
+
+Restart `systemctl reload apache2`.
 
 Now to make the outside world access that port on our machine we need to 
 allow it on the firewall rules:
