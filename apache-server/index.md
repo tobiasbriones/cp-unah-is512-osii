@@ -467,6 +467,20 @@ To add the other sites, replicate this section again.
 Make sure to access as HTTP because the HTTPS connection is only for the secure 
 port 443.
 
+### Result
+
+This is the result that has been achieved:
+
+![Apache Server Results](https://github.com/tobiasbriones/cp-unah-is512-osii/releases/download/v0.1.0/apache-server-results.gif)
+
+<figcaption>
+<p align="center"><strong>Apache Server Results</strong></p>
+</figcaption>
+
+The templates for the other websites deployed on ports 8081-8084 were taken from
+this site [themewagon.com](https://themewagon.com). You can do this extra step
+to add more sites to your project.
+
 ## Conclusion
 
 Many Linux system admin concepts like firewall, DNS, web servers, virtual hosts,
