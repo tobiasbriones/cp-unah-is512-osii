@@ -597,6 +597,12 @@ other ports to be open for users hosting other websites.
   to use your ability to address any problems. Initiative is a must for any
   talented engineer always!.
 
+## Resources
+
+### Video Presentation
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0_JUkrxzy-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Bibliography
 
 - [EP: Coniestica \| GitHub Repository](https://github.com/tobiasbriones/ep-coniestica).
