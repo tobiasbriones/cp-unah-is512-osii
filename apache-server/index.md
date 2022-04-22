@@ -499,7 +499,8 @@ port 443.
 
 ### Result
 
-This is the result that has been achieved:
+This is the result that has been achieved, visiting each port, from the main 
+Coniestica page port 443, until ports 8081-8084:
 
 ![Apache Server Results](https://github.com/tobiasbriones/cp-unah-is512-osii/releases/download/v0.1.0/apache-server-results.gif)
 
