@@ -457,8 +457,26 @@ Enable the new site with
 
 `sudo a2ensite operatingsystems.website.8081.conf`
 
+The VirtualHost will look like the following. If you copied the original 
+virtual host, you might need to remove some directives as they will redirect 
+you to the main (443) port.
+
+![PuTTY VirtualHost 8081](screenshots/putty-virtualhost-8081.png)
+
+<figcaption>
+<p align="center"><strong>PuTTY VirtualHost 8081</strong></p>
+</figcaption>
+
 Add the port 8081 to the Apache config `sudo nano /etc/apache2/ports.conf` 
 by adding "Listen 8081" to that file.
+
+The ports.conf file will look like this:
+
+![PuTTY Ports Config](screenshots/putty-ports-config.png)
+
+<figcaption>
+<p align="center"><strong>PuTTY Ports Config</strong></p>
+</figcaption>
 
 Restart `systemctl reload apache2`.
 
