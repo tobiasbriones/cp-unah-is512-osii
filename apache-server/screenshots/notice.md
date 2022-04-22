@@ -12,3 +12,4 @@
 - [MS Edge Prompt enter Credentials](ms-edge-prompt-enter-credentials.png)
 - [MS Edge Port 8081](ms-edge-port-8081.png)
 - [MS Edge Coniestica](ms-edge-coniestica.png)
+- [PuTTY VirtualHost 8081](putty-virtualhost-8081.png)
