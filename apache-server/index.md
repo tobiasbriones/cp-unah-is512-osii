@@ -511,6 +511,9 @@ The templates for the other websites deployed on ports 8081-8084 were taken from
 this site [themewagon.com](https://themewagon.com). You can do this extra step
 to add more sites to your project.
 
+Recall that you will need authentication for all the ports, but the browser 
+also caches your credentials.
+
 ## Conclusion
 
 Many Linux system admin concepts like firewall, DNS, web servers, virtual hosts,
