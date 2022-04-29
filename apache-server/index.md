@@ -67,6 +67,11 @@ forgot to mention this when I published the first version of this article
 because I have so much experience, I take it from granted, but try to be careful
 with your steps.
 
+I will also tell you, that your domain name is like your facade, home, or 
+company. Imagine if you lose them!. That is really terrible. So take the 
+domain registration as an important process. Always make your research on 
+different available options, and your needs.
+
 ## Get the VM
 
 I'll lead you to Digital Ocean on this endeavour. There are many other options
