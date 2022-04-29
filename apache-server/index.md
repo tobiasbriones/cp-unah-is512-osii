@@ -56,6 +56,17 @@ that would be a nightmare. I leave you
 this [scary story](https://www.namepros.com/threads/domains-got-stolen-from-my-namesilo-recovered.1097787)
 you can read.
 
+This is IMPORTANT. Always make sure to get (for free or paid) WHOIS Privacy
+which is a service to make your contact information private. Otherwise, you will
+get hundreds of phone calls from Indian marketers. This should be always
+private, but that's how the business works, if you get it for free, they always
+charge it on hidden fees or the final price anyway. The course professor didn't
+tell students about this (he almost never showed up actually as usual in this
+third-world university), and this is something you must be aware of. I 
+forgot to mention this when I published the first version of this article 
+because I have so much experience, I take it from granted, but try to be careful
+with your steps.
+
 ## Get the VM
 
 I'll lead you to Digital Ocean on this endeavour. There are many other options
