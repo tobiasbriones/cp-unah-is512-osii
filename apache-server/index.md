@@ -58,7 +58,7 @@ you can read.
 
 This is IMPORTANT. Always make sure to get (for free or paid) WHOIS Privacy
 which is a service to make your contact information private. Otherwise, you will
-get hundreds of phone calls from Indian marketers. This should be always
+get hundreds of phone calls from Indian marketers. This should always be
 private, but that's how the business works, if you get it for free, they always
 charge it on hidden fees or the final price anyway. The course professor didn't
 tell students about this (he almost never showed up actually as usual in this
