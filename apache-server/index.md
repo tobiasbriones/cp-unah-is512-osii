@@ -72,6 +72,21 @@ company. Imagine if you lose them!. That is really terrible. So take the domain
 registration as an important process. Always make your research on different
 available options, and your needs.
 
+#### Make your Research, Again!
+
+The course professor was even sponsoring GoDaddy, because we can get "cheap"
+domains for about $4. But, I'm more intelligent and chose a $1 domain name
+instead. GoDaddy is super expensive, is about $20 renewal and $10 first year a
+normal .ORG name!. If you ask a real engineer like me, we would recommend
+something like NameCheap, Google Domains, Porkbun, Namesilo, or Name.com. Why
+would you recommend GoDaddy? Just because you have a degree, it doesn't mean
+that you will stay with what you are used to using ("la vieja confiable"), and
+that you don't have to keep studying and learning. Just image those ordinary
+obedient students buying "cheap domains", and getting scammed night and day by
+phone calls. So, again, always make your research. I tell this, so I can
+transfer my experiences to someone else (something you will never get at
+traditional school, you just get headaches instead).
+
 ## Get the VM
 
 I'll lead you to Digital Ocean on this endeavour. There are many other options
